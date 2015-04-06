@@ -1,3 +1,2 @@
-/build/
-/build-require/
-/node_modules/
+!/node_modules/
+/node_modules/uglify-js/
