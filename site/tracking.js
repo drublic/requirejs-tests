@@ -7,5 +7,4 @@
 
   ga('create', 'UA-41497561-3');
   ga('send', 'pageview');
-  ga('send', 'event', 'requirejs-tests', 'end', window.PERF.name, window.PERF.end);
 }());
