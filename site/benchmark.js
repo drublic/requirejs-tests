@@ -42,6 +42,7 @@
   var init = function () {
     if (window.PERF && window.PERF.end) {
       measureTime(window.PERF);
+      tracking.track();
     } else {
       setTimeout(function () {
         init();

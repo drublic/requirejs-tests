@@ -65,3 +65,7 @@ h2 a {
   margin: 0 1rem;
   padding-top: 2rem;
 }
+
+.hidden {
+  display: none;
+}
