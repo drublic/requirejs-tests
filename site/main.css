@@ -1,0 +1,67 @@
+/**
+ * Styles for Require JS test page
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: sans-serif;
+  font-size: 16px;
+  max-width: 70rem;
+}
+
+iframe {
+  border: 1px solid #ddd;
+  background: #fff;
+  width: 100%;
+  height: 4.4rem;
+}
+
+h1 {
+  margin: 1em 0 0.5em;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 1em 0 0.5em;
+}
+
+h2 a {
+  font-size: 0.85rem;
+}
+
+.page {
+  background: #f1f9f4;
+  padding: 2rem 3rem;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.item {
+  display: inline;
+  float: left;
+  width: 50%;
+}
+
+.item,
+.intro {
+  padding: 0 1rem;
+}
+
+.intro {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  margin: 0 1rem;
+  padding-top: 2rem;
+}
